@@ -1,4 +1,1 @@
-biopython
 pandas
-matplotlib
-seaborn
