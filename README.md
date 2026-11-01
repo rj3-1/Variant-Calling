@@ -72,18 +72,17 @@ NGS-Variant-Pipeline
 ## Results
 
 Running the pipeline on the test dataset produced 156 raw variant calls,
-94 of which passed a QUAL > 100 filter. Two notable findings from
+64 of which passed a QUAL > 100 filter. Two notable findings from
 annotation:
 
 * Multiple high-confidence variants map to **SSA1**, a well-characterized
   cytosolic Hsp70 molecular chaperone essential for protein folding and the
   cellular stress response.
 * A dense cluster of variants maps to **YAR009C**, a Ty1 retrotransposon
-  gag-pol gene. This region also showed the highest read depth in
-  expression analysis - a signature of reads from multiple genomic copies
-  of the repetitive element mapping to a single reference copy, a well
-  documented artefact in repetitive-element analysis rather than genuine
-  single-locus variation.
+  gag-pol gene. Reads from multiple genomic copies of the repetitive element
+  mapping to a single reference copy. This is a well documented artefact in
+  repetitive-element analysis rather than genuine single-locus variation.
+  
 
 ## Getting Started
 
